@@ -4,7 +4,7 @@
 :root{
     --body-bg: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
     --msger-bg: #fff;
-    --left-msg-bg: linear-gradient(to right, #4b79a1, #283e51);
+    --left-msg-bg: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
     --right-msg-bg: #ececec;
 }
 html{
@@ -43,8 +43,8 @@ body {
     justify-content: center;
     padding: 10px;
     border-radius: 10px 10px 0px 0px;
-    background: #eee;
-    color: #666;
+    background:  #55efc4;
+    color: black;
 }
 .msger-header-title {
     display: flex;
@@ -111,7 +111,7 @@ body {
 }
 
 .left-msg .msg-bubble {
-    color: #fff;
+    color: black;
     border-bottom-left-radius: 0;
 }
 .right-msg {
@@ -128,7 +128,7 @@ body {
 .msger-inputarea {
     display: flex;
     padding: 10px;
-    background: #edc18d;
+    background: #0082e6;
     border-radius: 0px 0px 10px 10px;
 }
 .msger-inputarea *{
@@ -151,5 +151,7 @@ body {
     cursor: pointer;
 }
 .msger-chat {
-    background-color: #fcfcfe;
+    background-image: url('image/R.png');
+    height:fit-content;
+    width:fit-content
 }
