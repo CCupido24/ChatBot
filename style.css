@@ -128,7 +128,7 @@ body {
 .msger-inputarea {
     display: flex;
     padding: 10px;
-    background: #0082e6;
+    background: grey;
     border-radius: 0px 0px 10px 10px;
 }
 .msger-inputarea *{
@@ -136,12 +136,13 @@ body {
     border: none;
     border-radius: 3px;
     font-size: 1em;
+    color: white;
 }
 .msger-input {
     flex: 1;
     background: transparent;
     outline: none;
-    border: 1px solid rgba(255,255,255,0.7);
+    border: 1px solid rgb(255, 255, 255);
 }
 .msger-send-btn {
     margin-left: 10px;
@@ -151,7 +152,5 @@ body {
     cursor: pointer;
 }
 .msger-chat {
-    background-image: url('image/R.png');
-    height:fit-content;
-    width:fit-content
+    background-color: #fcfcfe;
 }

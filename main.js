@@ -4,7 +4,7 @@ const msgerChat = get(".msger-chat");
 const BOT_IMG = "bot.png";
 const PERSON_IMG = "person.png"; 
 const BOT_NAME = "BOT";
-const PERSON_NAME = "CCupido"; 
+const PERSON_NAME = "John Doe"; 
 
 const prompts = [
     ["hi", "hey", "hello", "good morning", "good afternoon"],
